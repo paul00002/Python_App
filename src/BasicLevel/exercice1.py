@@ -1,4 +1,16 @@
 # 1. **Max tra due numeri**  
 #    Chiedi due numeri all'utente e stampa il maggiore usando istruzioni `if/else`.
 
-#no ciao
+#n=input("Max tra due numeri")
+#print(n)
+x=int(input("inserirsci il primo numero:"))
+print(x)
+y=int(input("inserisci il secondo numero:"))
+print(y)
+
+if x>y:
+    print("il primo valore è maggiore del secondo"+int(x))
+elif x<y :
+    print("il secondo valore è maggiore del primo"+int(y))
+else: x==y
+print("i valori sono uguali")
