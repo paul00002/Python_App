@@ -8,9 +8,10 @@ print(x)
 y=int(input("inserisci il secondo numero:"))
 print(y)
 
+
 if x>y:
-    print("il primo valore è maggiore del secondo"+int(x))
+    print("il primo valore è maggiore del secondo"+str(x))
 elif x<y :
-    print("il secondo valore è maggiore del primo"+int(y))
-else: x==y
-print("i valori sono uguali")
+    print("il secondo valore è maggiore del primo"+str(y))
+else: 
+    print("i valori sono uguali")
