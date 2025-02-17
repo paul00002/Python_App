@@ -4,13 +4,17 @@
 #n=input("Max tra due numeri")
 #print(n)
 x=int(input("inserirsci il primo numero:"))
-print(x)
+print(x,type(x))
+#print(x)
 y=int(input("inserisci il secondo numero:"))
-print(y)
+print(y,type(y))
+#so che tipo di variabili sono sia x e y in più le ho visualizzate a video. 
 
-if x>y:
-    print("il primo valore è maggiore del secondo"+int(x))
-elif x<y :
-    print("il secondo valore è maggiore del primo"+int(y))
-else: x==y
-print("i valori sono uguali")
+if x and y ==int: 
+    if x>y:
+        print("il primo valore è maggiore del secondo"+str(x))
+    elif x<y :
+        print("il secondo valore è maggiore del primo"+str(y))
+    elif x==y:
+        print(" i due  numeri sono uguali")
+        
