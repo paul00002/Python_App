@@ -10,8 +10,8 @@ def matrix(x, y):
         n = []
         for j in range(y):
             number = random.randint(1, 100)
-            n.append(number)  # Append the random number to the row
-        matrix.append(n)  # Add the row to the matrix
+            n.append(number)  
+        matrix.append(n)  
 
     return matrix
 
