@@ -11,3 +11,4 @@ while True:
     somma = somma + numero
 
 print("Somma totale:", somma)
+#finito

@@ -28,3 +28,4 @@ elif numero2 > numero1:
 else:
     print("I due numeri sono uguali.")
 
+#finito

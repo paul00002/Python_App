@@ -12,3 +12,4 @@ with open("istogramma.txt", "w") as file:
         file.write(istogramma + "\n")
 
 print("L'istogramma è stato salvato in 'istogramma.txt'")
+#finito
